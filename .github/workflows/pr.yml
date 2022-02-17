@@ -1,10 +1,6 @@
 name: PR to Main
 
 on:
-  push:
-    branches:
-      - main
-      - master
   pull_request:
     branches:
       - main

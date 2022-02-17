@@ -45,8 +45,8 @@ jobs:
       - name: Run tests 🧪
         run: yarn test
 
-      - name: Build 🔨
-        run: yarn build
+      - name: SSG Generation 🔨
+        run: yarn generate
 
       - name: Deploy 🚀
         env:

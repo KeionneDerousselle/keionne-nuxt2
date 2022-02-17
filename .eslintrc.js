@@ -7,8 +7,13 @@ module.exports = {
     jest: true,
     'jest/globals': true,
   },
-  extends: ['@nuxtjs/eslint-config-typescript', 'plugin:nuxt/recommended', 'plugin:prettier/recommended'],
-  plugins: [],
+  extends: [
+    '@nuxtjs/eslint-config-typescript',
+    'plugin:nuxt/recommended',
+    'plugin:prettier/recommended',
+    'plugin:jest/recommended',
+  ],
+  plugins: ['jest'],
   // add your custom rules here
   rules: {
     'prettier/prettier': [

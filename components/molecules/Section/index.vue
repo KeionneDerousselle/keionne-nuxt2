@@ -17,7 +17,7 @@ export default defineComponent({
 
 <template>
   <section>
-    <SectionTitle :title="title" />
+    <SectionTitle :title="title" class="mb-16" />
     <slot />
   </section>
 </template>

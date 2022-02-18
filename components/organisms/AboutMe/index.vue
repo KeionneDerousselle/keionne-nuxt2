@@ -1,16 +1,16 @@
-<template>
-  <SectionTitle title="About Me"></SectionTitle>
-</template>
-
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api'
-import SectionTitle from '@/components/atoms/SectionTitle/index.vue'
+import { defineComponent } from '@nuxtjs/composition-api'
+import Section from '@/components/molecules/Section/index.vue'
 
 export default defineComponent({
   name: 'AboutMe',
 
   components: {
-    SectionTitle,
+    Section,
   },
 })
 </script>
+
+<template>
+  <Section title="About Me"> Some text about me. </Section>
+</template>

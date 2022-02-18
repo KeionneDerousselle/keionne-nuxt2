@@ -10,6 +10,7 @@ module.exports = {
   extends: [
     '@nuxtjs/eslint-config-typescript',
     'plugin:nuxt/recommended',
+    'plugin:tailwind/recommended',
     'plugin:prettier/recommended',
     'plugin:jest/recommended',
   ],

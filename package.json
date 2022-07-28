@@ -51,7 +51,7 @@
     "husky": "^7.0.4",
     "jest": "^27.4.4",
     "lint-staged": "^12.1.2",
-    "netlify-cli": "^9.6.5",
+    "netlify-cli": "^10.12.1",
     "postcss": "^8.4.4",
     "prettier": "^2.5.1",
     "ts-jest": "^27.1.1",
